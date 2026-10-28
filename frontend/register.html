@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="kk" data-theme="dark">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тіркелу — QARZHYM</title>
+<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/responsive.css"><link rel="stylesheet" href="/css/auth.css">
+</head>
+<body><div class="auth-wrap"><div class="auth-card">
+<div class="brand"><span class="logo"><svg class="i" viewBox="0 0 24 24" style="width:42px;height:42px;stroke-width:1.5"><path d="M5 21c0-9 5-15 15-17 0 9-4 15-13 15"/><path d="M5 21c2-5 5-8 9-10"/></svg></span><div><div class="name">QARZHYM</div><small>Жеке қаржы көмекшісі</small></div></div>
+<h1>Тіркелу</h1>
+<form id="auth-form" data-mode="register">
+<div class="field"><label for="full_name">Аты-жөні</label><input id="full_name" name="full_name" required minlength="2" autocomplete="name"></div>
+<div class="field"><label for="email">Электрондық пошта</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="password">Құпиясөз</label><input id="password" name="password" type="password" required minlength="8" autocomplete="new-password"></div>
+<div class="field"><label for="confirm_password">Құпиясөзді растаңыз</label><input id="confirm_password" name="confirm_password" type="password" required autocomplete="new-password"></div>
+<p class="note">Кемінде 8 таңба, әріп және сан болуы керек.</p>
+<div class="form-err" id="auth-err" role="alert"></div>
+<button class="btn" type="submit">Тіркелу</button>
+</form>
+<div class="auth-alt">Тіркелгіңіз бар ма? <a href="/login.html">Кіру</a></div>
+</div></div>
+<script src="/js/api.js"></script><script src="/js/app.js"></script><script src="/js/auth.js"></script>
+</body></html>

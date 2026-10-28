@@ -1,0 +1,17 @@
+@media(max-width:1200px){.g4{grid-template-columns:repeat(2,1fr)}.g-main{grid-template-columns:1fr}}
+@media(max-width:900px){
+ .sidebar{position:fixed;left:0;top:0;transform:translateX(-100%);box-shadow:var(--shadow)}.sidebar.open{transform:none}
+ .burger{display:grid}.topbar{padding:12px 14px}.content{padding:16px 14px 90px}
+ .g3{grid-template-columns:1fr 1fr}.user-chip span{display:none}
+ .scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:45}
+}
+@media(max-width:600px){
+ .g4,.g3,.g2{grid-template-columns:1fr}.topbar p{display:none}.topbar h2{font-size:18px}
+ .page-head h1{font-size:22px}.stat .val{font-size:22px}.card{padding:14px}
+ .row{flex-wrap:wrap}.row .acts{width:100%;justify-content:flex-end}
+ .chart-box{height:230px}.cal .d{min-height:62px}.cal .ev{display:none}.cal .d .cnt{display:block;font-size:10px}
+ .btn{min-height:44px}.filters{grid-template-columns:1fr 1fr}
+ .tb-right .btn-theme{display:none}
+}
+@media(max-width:360px){.filters{grid-template-columns:1fr}.content{padding:12px 10px 90px}}
+@media(min-width:601px){.cal .cnt{display:none}}
